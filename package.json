@@ -1,0 +1,15 @@
+{
+  "name": "product-management-app",
+  "version": "1.0.0",
+  "description": "A student project for Product Management Web App",
+  "scripts": {
+    "start:backend": "cd backend && npm run start:dev",
+    "start:frontend": "cd frontend && npm run dev"
+  },
+  "author": "CS Student",
+  "license": "ISC",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ]
+}
